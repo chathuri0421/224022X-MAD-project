@@ -59,6 +59,7 @@ export default function Home() {
   const [newLoading, setNewLoading] = useState(true);
   const [modalOpen, setModalOpen] = useState(false);
 
+  
   const today = new Date();
   const date =
     today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
